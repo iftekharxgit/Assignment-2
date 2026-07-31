@@ -64,7 +64,7 @@ function topRatedRestaurant(restaurants) {
    }
    
    let topRestaurant = restaurants[0];
-   for( i = 0; i<restaurants.length; i++){
+   for( let i = 0; i<restaurants.length; i++){
      if (restaurants[i].rating > topRestaurant.rating) {
             topRestaurant = restaurants[i];
         }
